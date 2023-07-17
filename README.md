@@ -1,8 +1,8 @@
 # Getting Started with Create React App
 
 <div style="display: grid; display:flex;">
-  <img style="width: 50%; height: auto;" src="images/first_.PNG" alt="Image 1">
-  <img style="width: 50%; height: auto;" src="images/second_.PNG" alt="Image 3">
+  <img style="width: 200px; height: auto;" src="images/first_.PNG" alt="Image 1">
+  <img style="width: 200px; height: auto;" src="images/second_.PNG" alt="Image 3">
 </div>
 
 
