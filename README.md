@@ -2,14 +2,10 @@
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 10px;">
   <div>
     <img style="width: 30%; height: auto;" src="images/first_.PNG" alt="Image 1">
-  </div>
-  <div>
     <img style="width: 30%; height: auto;" src="images/fourth.PNG" alt="Image 2">
   </div>
   <div>
     <img style="width: 30%; height: auto;" src="images/second_.PNG" alt="Image 3">
-  </div>
-  <div>
     <img style="width: 30%; height: auto;" src="images/third_.PNG" alt="Image 4">
   </div>
 </div>
