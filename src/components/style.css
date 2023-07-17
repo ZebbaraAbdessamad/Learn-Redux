@@ -1,0 +1,273 @@
+.nav-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c2b2b2;
+    padding: 9px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .store-name {
+    flex-grow: 1;
+  }
+  
+  .store-name h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .cart-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .shopping-cart-icon {
+    font-size: 32px;
+    color: #333;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .total-amount {
+    position: relative;
+    top: -16px;
+    right: -45px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 50px;
+  }
+  
+
+  /* cart container  */
+
+  .cart {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .cart header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .cart .empty-cart {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .cart div {
+    margin-bottom: 20px;
+  }
+  
+  .cart footer {
+    margin-top: 20px;
+  }
+  
+  .cart hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .cart-total {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .cart-total h4 {
+    font-size: 20px;
+  }
+  
+  .cart-total span {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  .btn-clear {
+    background-color: #ff5f5f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-clear:hover {
+    background-color: #e64242;
+  }
+  
+  @media (max-width: 480px) {
+    .cart {
+      padding: 10px;
+    }
+  
+    .cart h2 {
+      font-size: 20px;
+    }
+  
+    .cart .empty-cart {
+      font-size: 16px;
+    }
+  
+    .cart-total h4 {
+      font-size: 18px;
+    }
+  
+    .btn-clear {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+
+
+/*  Cart Item */
+article {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h4 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.item-price {
+  font-weight: bold;
+  color: #333;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+button:hover {
+  color: #ff5f5f;
+}
+
+.remove-btn {
+  color: #777;
+  font-size: 14px;
+}
+
+.amount-btn {
+  display: flex;
+  align-items: center;
+}
+
+.amount-btn button {
+  font-size: 24px;
+  padding: 5px 10px;
+}
+
+.amount-btn button:first-child {
+  margin-right: 5px;
+}
+
+.amount-btn button:last-child {
+  margin-left: 5px;
+}
+
+.amount {
+  text-align: center;
+  font-size: 18px;
+}
+
+.buttons-add{
+  display: flex;
+}
+
+/*  modal */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  margin: 0 0 10px;
+}
+
+p {
+  margin: 0 0 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.clear-btn {
+  background-color: #ff5f5f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.clear-btn:hover {
+  background-color: #e64242;
+}
+
+.cancel-btn {
+  background-color: #777;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.cancel-btn:hover {
+  background-color: #666;
+}
