@@ -1,9 +1,8 @@
 # Getting Started with Create React App
-# Getting Started with Create React App
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 10px;">
-  <img style="width: 70%; height: auto;" src="images/first_.PNG" alt="Image 1">
-  <img style="width: 70%; height: auto;" src="images/second_.PNG" alt="Image 3">
+  <img style="width: 50%; height: auto;" src="images/first_.PNG" alt="Image 1">
+  <img style="width: 50%; height: auto;" src="images/second_.PNG" alt="Image 3">
 </div>
 
 
