@@ -1,4 +1,10 @@
 # Getting Started with Create React App
+<div class="image-grid">
+  <img src="images/first_.PNG" alt="Image 1">
+  <img src="images/fourth.PNG" alt="Image 2">
+  <img src="images/second.PNG" alt="Image 3">
+  <img src="images/third_.PNG" alt="Image 4">
+</div>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
